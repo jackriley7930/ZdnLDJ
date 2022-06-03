@@ -7,7 +7,6 @@ namespace events::handlers
 	struct ObjectSaver;
 
 	template<class LValue>
-	struct ObjectSaver<LValue&>
 	{
 		using TObject = LValue&;
 	};
