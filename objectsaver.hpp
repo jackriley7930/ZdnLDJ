@@ -6,7 +6,6 @@ namespace events::handlers
 	template<class TSome>
 	struct ObjectSaver;
 
-	template<class LValue>
 	{
 		using TObject = LValue&;
 	};
